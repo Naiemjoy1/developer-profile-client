@@ -1,4 +1,10 @@
 import { useState } from "react";
+import { GoPerson } from "react-icons/go";
+import { IoFileTrayFullOutline } from "react-icons/io5";
+import { MdOutlineSms } from "react-icons/md";
+import { PiBagSimpleLight } from "react-icons/pi";
+import { TbBook2 } from "react-icons/tb";
+import { HiOutlineTerminal } from "react-icons/hi";
 
 const Navbar = () => {
   const [theme, setTheme] = useState("light");
@@ -6,22 +12,36 @@ const Navbar = () => {
   const navLink = (
     <>
       <li>
-        <a className="hover:border-b-4 border-primary">About</a>
+        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+          {" "}
+          <GoPerson />
+          About
+        </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary">Skills</a>
+        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+          <HiOutlineTerminal /> Skills
+        </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary">Experience</a>
+        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+          <PiBagSimpleLight /> Experience
+        </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary">Education</a>
+        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+          <TbBook2 /> Education
+        </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary">Projects</a>
+        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+          <IoFileTrayFullOutline /> Projects
+        </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary">Contact</a>
+        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+          <MdOutlineSms /> Contact
+        </a>
       </li>
     </>
   );
@@ -34,8 +54,8 @@ const Navbar = () => {
     }
   };
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className=" bg-secondary shadow-md dark:bg-[#1f1f1f]">
+      <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -64,7 +84,7 @@ const Navbar = () => {
           <a>Naiem Hasan</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="flex justify-evenly gap-6">{navLink}</ul>
+          <ul className="flex justify-evenly gap-8">{navLink}</ul>
         </div>
         <div className="navbar-end">
           <label className="swap swap-rotate">
