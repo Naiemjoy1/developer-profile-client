@@ -4,7 +4,7 @@ import Footer from "../Shared/Footer/Footer";
 
 const Main = () => {
   return (
-    <div>
+    <div className=" bg-accent">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>

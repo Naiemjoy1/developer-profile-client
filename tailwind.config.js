@@ -1,10 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+// tailwind.config.js
+
+module.exports = {
+  darkMode: "class", // Enable dark mode based on class
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        openSans: "'Open Sans', sans-serif ",
+        openSans: "'Open Sans', sans-serif",
         Playfair: "'Playfair Display', serif",
       },
     },
@@ -16,16 +18,16 @@ export default {
         light: {
           primary: "#389afe",
           secondary: "#fefefe",
-          accent: "#d4d8dd",
-          neutral: "#f1f2f5",
+          accent: "#eff2f5",
+          neutral: "#1f1f1f",
         },
       },
       {
         dark: {
           primary: "#1972c8",
           secondary: "#111825",
-          accent: "#616975",
-          neutral: "#131313",
+          accent: "#131313",
+          neutral: "#ffffff",
         },
       },
     ],
