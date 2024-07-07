@@ -1,5 +1,4 @@
 import { useTypewriter } from "react-simple-typewriter";
-import bag from "/public/bag-svgrepo-com.svg";
 import { PiBagSimpleLight } from "react-icons/pi";
 
 const Typewriter = () => {

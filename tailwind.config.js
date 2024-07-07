@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         openSans: "'Open Sans', sans-serif",
         Playfair: "'Playfair Display', serif",
+        Roboto: "'Roboto',sans-serif",
       },
     },
   },
