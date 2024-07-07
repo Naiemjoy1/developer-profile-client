@@ -13,7 +13,6 @@ const Navbar = () => {
     <>
       <li>
         <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
-          {" "}
           <GoPerson />
           About
         </a>
