@@ -1,8 +1,8 @@
-import { BiSolidMap } from "react-icons/bi";
 import TextTransitionComponent from "../../Components/text-transition/texttransition";
 import { PiBagSimpleLight } from "react-icons/pi";
-import { MdDownload, MdEmail } from "react-icons/md";
-import { RiContactsFill, RiMapPin2Line } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
+import { RiMapPin2Line } from "react-icons/ri";
+import { personalData } from "/utils/personal-data.js";
 import {
   FaDev,
   FaFacebookSquare,
@@ -62,41 +62,37 @@ const Home = () => {
         </section>
         <section className="text-center text-primary text-xl flex gap-16 justify-center mt-10">
           <a
-            href="https://github.com/your-profile"
+            href={personalData.github}
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub />
           </a>
           <a
-            href="https://twitter.com/your-profile"
+            href={personalData.twitter}
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaTwitter />
           </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href={personalData.linkedIn}
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin />
           </a>
           <a
-            href="https://facebook.com/your-profile"
+            href={personalData.facebook}
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebookSquare />
           </a>
-          <a
-            href="https://dev.to/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={personalData.dev} target="_blank" rel="noopener noreferrer">
             <FaDev />
           </a>
-          <a href="mailto:your-email@example.com">
+          <a href="mailto:naiemunhasan.com">
             <MdEmail />
           </a>
         </section>

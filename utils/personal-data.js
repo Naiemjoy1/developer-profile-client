@@ -12,6 +12,7 @@ export const personalData = {
   linkedIn: "https://www.linkedin.com/in/naiemjoy1/",
   twitter: "https://twitter.com/",
   stackOverflow: "https://stackoverflow.com/",
+  dev: "https://dev.to/naiemjoy1",
   devUsername: "naiemjoy1",
   resume:
     "https://drive.google.com/file/d/10kl3BSFiVoyvZ1rZ8cmpFeEqtzJdYxgE/view?usp=sharing",
