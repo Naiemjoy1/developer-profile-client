@@ -63,7 +63,7 @@ const Banner = () => {
             </button>
           </section>
         </section>
-        <section className="text-primary text-xl flex lg:gap-16 gap-6 justify-center mt-10">
+        <section className="text-primary text-xl flex lg:gap-16 gap-6 md:gap-14 justify-center mt-10">
           <a
             href={personalData.github}
             target="_blank"

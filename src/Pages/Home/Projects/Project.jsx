@@ -10,7 +10,7 @@ const Project = () => {
       <p className="text-center uppercase text-3xl font-bold opacity-70">
         my projects
       </p>
-      <div className="mt-5 grid lg:grid-cols-3 justify-center gap-8 ">
+      <div className="mt-5 grid lg:grid-cols-3 md:grid-cols-2 justify-center gap-8 ">
         {Projects.map((project, index) => (
           <ProjectCard key={index} project={project}></ProjectCard>
         ))}
