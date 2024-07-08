@@ -15,7 +15,7 @@ const Navbar = () => {
       <li>
         <a
           href="#about"
-          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+          className="hover:border-b-4 border-primary flex items-center gap-3"
         >
           <GoPerson />
           About
@@ -24,7 +24,7 @@ const Navbar = () => {
       <li>
         <a
           href="#skills"
-          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+          className="hover:border-b-4 border-primary flex  items-center gap-3"
         >
           <HiOutlineTerminal /> Skills
         </a>
@@ -33,7 +33,7 @@ const Navbar = () => {
         <li>
           <a
             href="#experience"
-            className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+            className="hover:border-b-4 border-primary flex  items-center gap-3"
           >
             <PiBagSimpleLight /> Experience
           </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
       <li>
         <a
           href="#education"
-          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+          className="hover:border-b-4 border-primary flex  items-center gap-3"
         >
           <TbBook2 /> Education
         </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
       <li>
         <a
           href="#projects"
-          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+          className="hover:border-b-4 border-primary flex  items-center gap-3"
         >
           <IoFileTrayFullOutline /> Projects
         </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
       <li>
         <a
           href="#contact"
-          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+          className="hover:border-b-4 border-primary flex  items-center gap-3"
         >
           <MdOutlineSms /> Contact
         </a>
@@ -78,6 +78,7 @@ const Navbar = () => {
     <div className="bg-secondary fixed w-full top-0 left-0 right-0 z-50 shadow-md text-neutral">
       <div className="navbar px-10">
         <div className="navbar-start">
+          {/* <TemporaryDrawer navLink={navLink}></TemporaryDrawer> */}
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -97,7 +98,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-left"
             >
               {navLink}
             </ul>
