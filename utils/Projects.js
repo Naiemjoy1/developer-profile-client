@@ -3,7 +3,7 @@ import cozyImg from "../src/assets/Project/care-quest.jpg";
 export const Projects = [
   {
     id: 1,
-    name: "CozyStay Hotel Booking Website",
+    name: "CozyStay Hotel Booking ",
     tools: ["React.js", "Node.js", "Firebase", "MongoDB"],
     role: "Full Stack Developer",
     description:
@@ -14,13 +14,15 @@ export const Projects = [
       "Booking Management",
       "Review Submission",
     ],
-    live: "https://cozystay-hotel-booking.web.app/",
-    client: "https://github.com/Naiemjoy1/cozy-hotel-client",
-    server: "https://github.com/Naiemjoy1/cozy-hotel-server",
+    links: {
+      live: "https://cozystay-hotel-booking.web.app/",
+      client: "https://github.com/Naiemjoy1/cozy-hotel-client",
+      server: "https://github.com/Naiemjoy1/cozy-hotel-server",
+    },
   },
   {
     id: 2,
-    name: "Diagnostic Center Management System",
+    name: "Diagnostic Center Management ",
     tools: ["React.js", "Node.js", "Firebase", "MongoDB"],
     role: "Full Stack Developer",
     description:
@@ -31,21 +33,25 @@ export const Projects = [
       "Admin Dashboard",
       "Secure Authentication and Payment Integration",
     ],
-    live: "https://care-quest-2ae20.web.app/",
-    client: "https://github.com/Naiemjoy1/care-quest-client",
-    server: "https://github.com/Naiemjoy1/care-quest-server",
+    links: {
+      live: "https://care-quest-2ae20.web.app/",
+      client: "https://github.com/Naiemjoy1/care-quest-client",
+      server: "https://github.com/Naiemjoy1/care-quest-server",
+    },
   },
   {
     id: 3,
-    name: "South Travel - Tourism Management Website",
+    name: "Tourism Management ",
     tools: ["React.js", "Node.js", "Firebase", "MongoDB"],
     role: "Full Stack Developer",
     description:
       "Built a tourism management site with responsive design, secure authentication, and interactive maps for Southeast Asia travel details.",
     img: cozyImg,
     features: ["Dynamic Home Page", "User Management", "Personalization"],
-    live: "https://assignment10-mongodb.web.app/",
-    client: "https://github.com/Naiemjoy1/travel-south-client",
-    server: "https://github.com/Naiemjoy1/travel-south-server",
+    links: {
+      live: "https://assignment10-mongodb.web.app/",
+      client: "https://github.com/Naiemjoy1/travel-south-client",
+      server: "https://github.com/Naiemjoy1/travel-south-server",
+    },
   },
 ];

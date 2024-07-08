@@ -3,7 +3,10 @@ import EducationCard from "./EducationCard";
 
 const Education = () => {
   return (
-    <div className="container mx-auto w-10/12 justify-center p-6 text-neutral mt-10">
+    <div
+      id="education"
+      className="container mx-auto w-10/12 justify-center p-6 text-neutral mt-10"
+    >
       <p className="text-center uppercase text-3xl font-bold opacity-70">
         Education
       </p>

@@ -53,7 +53,7 @@ const Footer = () => {
               <MdEmail />
             </a>
           </section>
-          <p className=" opacity-55">
+          <p className="opacity-55">
             © {new Date().getFullYear()} - Naiem Hasan
           </p>
         </aside>

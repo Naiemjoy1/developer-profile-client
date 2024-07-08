@@ -4,7 +4,10 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <div className="container mx-auto w-10/12 justify-center p-6 text-neutral mt-10">
+    <div
+      id="contact"
+      className="container mx-auto w-10/12 justify-center p-6 text-neutral mt-10"
+    >
       <p className="text-center uppercase text-3xl font-bold opacity-70">
         CONTACT
       </p>

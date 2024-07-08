@@ -14,9 +14,12 @@ import TextTransitionComponent from "../../../Components/text-transition/texttra
 
 const Banner = () => {
   return (
-    <div className="container mx-auto w-10/12 justify-center p-6 text-neutral relative mt-14">
-      <div className="bg-secondary p-12 justify-center shadow-2xl rounded-xl">
-        <div className="absolute inset-x-0 -top-6 flex justify-center">
+    <div
+      id="about"
+      className="container mx-auto w-10/12 justify-center p-6 text-neutral relative mt-10"
+    >
+      <div className="bg-secondary p-12 justify-center shadow-2xl rounded-xl mt-20">
+        <div className="absolute inset-x-0 top-12 flex justify-center">
           <div className="avatar">
             <div className="ring-primary ring-offset-base-100 w-36 rounded-full ring-4">
               <img src={dpImg} />

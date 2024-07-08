@@ -12,13 +12,19 @@ const Navbar = () => {
   const navLink = (
     <>
       <li>
-        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+        <a
+          href="#about"
+          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+        >
           <GoPerson />
           About
         </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+        <a
+          href="#skills"
+          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+        >
           <HiOutlineTerminal /> Skills
         </a>
       </li>
@@ -28,17 +34,26 @@ const Navbar = () => {
         </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+        <a
+          href="#education"
+          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+        >
           <TbBook2 /> Education
         </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+        <a
+          href="#projects"
+          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+        >
           <IoFileTrayFullOutline /> Projects
         </a>
       </li>
       <li>
-        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
+        <a
+          href="#contact"
+          className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+        >
           <MdOutlineSms /> Contact
         </a>
       </li>
@@ -53,7 +68,7 @@ const Navbar = () => {
     }
   };
   return (
-    <div className=" bg-secondary shadow-md text-neutral">
+    <div className="bg-secondary fixed w-full top-0 left-0 right-0 z-50 shadow-md text-neutral">
       <div className="navbar px-10">
         <div className="navbar-start">
           <div className="dropdown">
