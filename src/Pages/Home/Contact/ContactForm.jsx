@@ -15,16 +15,13 @@ const ContactForm = () => {
     // console.log(data);
     setLoading(true);
     try {
-      const response = await fetch(
-        "https://naiem-hasan-server.vercel.app/api/contact",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        }
-      );
+      const response = await fetch("http://localhost:3000/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
       if (response.ok) {
         // console.log("Message sent successfully");
@@ -49,7 +46,7 @@ const ContactForm = () => {
     <div>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="card-body border border-secondary rounded-xl"
+        className="card-body border border-secondary rounded-xl p-0"
       >
         <div className="form-control">
           <input

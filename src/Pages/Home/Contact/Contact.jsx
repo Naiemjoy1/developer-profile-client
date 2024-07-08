@@ -6,14 +6,14 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="container mx-auto w-10/12 justify-center p-6 text-neutral mt-10"
+      className="container mx-auto lg:w-10/12 justify-center p-6 text-neutral mt-10"
     >
       <p className="text-center uppercase text-3xl font-bold opacity-70">
         CONTACT
       </p>
-      <div className="bg-secondary py-12 px-32 shadow-2xl rounded-xl mt-5">
-        <div className="flex gap-10 justify-center items-center">
-          <section className="w-1/2 space-y-6">
+      <div className="bg-secondary py-12 lg:px-32 px-10 shadow-2xl rounded-xl mt-5">
+        <div className="lg:flex gap-10 justify-center items-center space-y-4">
+          <section className="lg:w-1/2 space-y-6">
             <p className="text-4xl opacity-60">GET IN TOUCH</p>
             <p className="opacity-80 text-sm">
               Fill in the form to start a conversation.
@@ -27,7 +27,7 @@ const Contact = () => {
               <span>naiemunhasan@gmail.com</span>
             </p>
           </section>
-          <section className="w-1/2">
+          <section className="lg:w-1/2">
             <ContactForm></ContactForm>
           </section>
         </div>

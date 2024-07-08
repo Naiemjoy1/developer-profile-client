@@ -16,20 +16,20 @@ const Banner = () => {
   return (
     <div
       id="about"
-      className="container mx-auto w-10/12 justify-center p-6 text-neutral relative mt-10"
+      className="container mx-auto lg:w-10/12 justify-center p-6 text-neutral relative mt-10"
     >
-      <div className="bg-secondary p-12 justify-center shadow-2xl rounded-xl mt-20">
+      <div className="bg-secondary lg:p-12 p-8 justify-center shadow-2xl rounded-xl mt-20">
         <div className="absolute inset-x-0 top-12 flex justify-center">
           <div className="avatar">
-            <div className="ring-primary ring-offset-base-100 w-36 rounded-full ring-4">
+            <div className="ring-primary ring-offset-base-100 lg:w-36 w-28 rounded-full ring-4">
               <img src={dpImg} />
             </div>
           </div>
         </div>
-        <div className="text-center mt-16">
-          <p className="text-3xl uppercase opacity-70">Naiem Hasan</p>
+        <div className="text-center lg:mt-16 mt-10">
+          <p className="lg:text-3xl uppercase opacity-70">Naiem Hasan</p>
         </div>
-        <section className="space-y-4 mt-8">
+        <section className="space-y-4 lg:mt-8 mt-5">
           <p className="flex gap-2 items-center">
             <PiBagSimpleLight /> <TextTransitionComponent />
           </p>
@@ -63,7 +63,7 @@ const Banner = () => {
             </button>
           </section>
         </section>
-        <section className="text-center text-primary text-xl flex gap-16 justify-center mt-10">
+        <section className="text-primary text-xl flex lg:gap-16 gap-6 justify-center mt-10">
           <a
             href={personalData.github}
             target="_blank"

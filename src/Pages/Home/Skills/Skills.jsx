@@ -5,12 +5,12 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="container mx-auto w-10/12 justify-center p-6 text-neutral mt-10"
+      className="container mx-auto lg:w-10/12 justify-center p-6 text-neutral mt-10"
     >
       <p className="text-center uppercase text-3xl font-bold opacity-70">
         Skills
       </p>
-      <section className="grid grid-cols-5 text-sm opacity-70 mt-5">
+      <section className="grid lg:grid-cols-5 grid-cols-2 text-sm opacity-70 mt-5">
         {skills.map((skill, index) => (
           <SkillCard key={index} skill={skill}></SkillCard>
         ))}
