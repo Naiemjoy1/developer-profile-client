@@ -19,7 +19,18 @@ const EducationCard = ({ edu }) => {
       </span>
       <section className="space-y-2">
         <p className="opacity-50">{edu.duration}</p>
-        <p className="font-medium text-sm opacity-65">{edu.institution}</p>
+        <section className="flex gap-2 items-center">
+          <div className="h-4">
+            <img src={edu.logo} className="h-full w-auto rounded-lg" />
+          </div>
+          <a
+            className="font-semibold text-sm opacity-65"
+            target="_blank"
+            href={edu.link}
+          >
+            {edu.institution}
+          </a>
+        </section>
         <p className="opacity-70 text-xl font-medium">{edu.title}</p>
         <p className="text-sm opacity-65">- {edu.group}</p>
       </section>
@@ -33,6 +44,8 @@ EducationCard.propTypes = {
     institution: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     group: PropTypes.string.isRequired,
+    logo: PropTypes.string.isRequired,
+    link: PropTypes.string,
   }).isRequired,
 };
 

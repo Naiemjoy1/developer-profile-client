@@ -5,6 +5,7 @@ import { MdOutlineSms } from "react-icons/md";
 import { PiBagSimpleLight } from "react-icons/pi";
 import { TbBook2 } from "react-icons/tb";
 import { HiOutlineTerminal } from "react-icons/hi";
+import { experiencesData } from "/utils/experiencesData.js";
 
 const Navbar = () => {
   const [theme, setTheme] = useState("light");
@@ -28,11 +29,17 @@ const Navbar = () => {
           <HiOutlineTerminal /> Skills
         </a>
       </li>
-      <li>
-        <a className="hover:border-b-4 border-primary flex justify-center items-center gap-3">
-          <PiBagSimpleLight /> Experience
-        </a>
-      </li>
+      {experiencesData.length > 0 && (
+        <li>
+          <a
+            href="#experience"
+            className="hover:border-b-4 border-primary flex justify-center items-center gap-3"
+          >
+            <PiBagSimpleLight /> Experience
+          </a>
+        </li>
+      )}
+
       <li>
         <a
           href="#education"
