@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <p className="text-sm text-left">{`${project.description.slice(
           0,
-          100
+          70
         )}...`}</p>
         <div className="overflow-hidden">
           <ul className="flex flex-wrap gap-2 max-w-full">

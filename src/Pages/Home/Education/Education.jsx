@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="container mx-auto lg:w-10/12 justify-center p-6 text-neutral mt-10"
+      className="container mx-auto lg:w-10/12 2xl:w-7/12 justify-center p-6 text-neutral mt-10"
     >
       <p className="text-center uppercase text-3xl font-bold opacity-70">
         Education

@@ -16,7 +16,7 @@ const Banner = () => {
   return (
     <div
       id="about"
-      className="container mx-auto lg:w-10/12 justify-center p-6 text-neutral relative mt-10"
+      className="container mx-auto lg:w-10/12 2xl:w-7/12 justify-center p-6 text-neutral relative mt-10"
     >
       <div className="bg-secondary lg:p-12 p-8 justify-center shadow-2xl rounded-xl mt-20">
         <div className="absolute inset-x-0 top-12 flex justify-center">
