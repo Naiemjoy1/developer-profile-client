@@ -2,8 +2,8 @@ import PropTypes from "prop-types";
 
 const EducationCard = ({ edu }) => {
   return (
-    <div className="mb-10 ml-6">
-      <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+    <div className="mb-10 ml-10">
+      <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full dark:ring-gray-900 dark:bg-blue-900">
         <svg
           className="w-3 h-3 text-blue-600 dark:text-blue-400"
           fill="currentColor"
