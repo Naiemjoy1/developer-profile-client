@@ -7,7 +7,7 @@ const Skills = () => {
       <p className="text-center uppercase text-3xl font-bold opacity-70">
         Skills
       </p>
-      <section className="grid grid-cols-5 text-sm opacity-70">
+      <section className="grid grid-cols-5 text-sm opacity-70 mt-5">
         {skills.map((skill, index) => (
           <SkillCard key={index} skill={skill}></SkillCard>
         ))}
