@@ -1,4 +1,6 @@
-import cozyImg from "../src/assets/Project/care-quest.jpg";
+import careImg from "../src/assets/Project/care-quest.jpg";
+import cozyImg from "../src/assets/Project/cozy-hotel.jpg";
+import travelImg from "../src/assets/Project/travel-south.jpg";
 
 export const Projects = [
   {
@@ -27,7 +29,7 @@ export const Projects = [
     role: "Full Stack Developer",
     description:
       "Streamlined diagnostic center operations with user authentication, profile management, responsive design, and dynamic admin features.",
-    img: cozyImg,
+    img: careImg,
     features: [
       "Comprehensive User Dashboard",
       "Admin Dashboard",
@@ -46,7 +48,7 @@ export const Projects = [
     role: "Full Stack Developer",
     description:
       "Built a tourism management site with responsive design, secure authentication, and interactive maps for Southeast Asia travel details.",
-    img: cozyImg,
+    img: travelImg,
     features: ["Dynamic Home Page", "User Management", "Personalization"],
     links: {
       live: "https://assignment10-mongodb.web.app/",

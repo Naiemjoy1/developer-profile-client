@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-
 const ProjectCard = ({ project }) => {
   return (
     <div className="transition-all duration-500 m-1 rounded-lg group relative hover:scale-[1.10] cursor-pointer">
