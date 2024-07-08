@@ -1,7 +1,13 @@
 import React from "react";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["React Js", "Javascript", "Node Js", "MongoDb"];
+const TEXTS = [
+  "MERN Stack Developer",
+  "React Js",
+  "Javascript",
+  "Node Js",
+  "MongoDb",
+];
 
 const TextTransitionComponent = () => {
   const [index, setIndex] = React.useState(0);
@@ -11,7 +17,7 @@ const TextTransitionComponent = () => {
       () => setIndex((index) => index + 1),
       3000 // every 3 seconds
     );
-    return () => clearInterval(intervalId); // Use clearInterval here
+    return () => clearInterval(intervalId);
   }, []);
 
   return (

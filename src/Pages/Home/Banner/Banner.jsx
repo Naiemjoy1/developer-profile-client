@@ -67,6 +67,7 @@ const Banner = () => {
           <a
             href={personalData.github}
             target="_blank"
+            className="hover:text-primary hover:scale-110 transition-all duration-300 cursor-pointer"
             rel="noopener noreferrer"
           >
             <FaGithub />
@@ -74,6 +75,7 @@ const Banner = () => {
           <a
             href={personalData.twitter}
             target="_blank"
+            className="hover:text-primary hover:scale-110 transition-all duration-300 cursor-pointer"
             rel="noopener noreferrer"
           >
             <FaTwitter />
@@ -81,6 +83,7 @@ const Banner = () => {
           <a
             href={personalData.linkedIn}
             target="_blank"
+            className="hover:text-primary hover:scale-110 transition-all duration-300 cursor-pointer"
             rel="noopener noreferrer"
           >
             <FaLinkedin />
@@ -88,14 +91,23 @@ const Banner = () => {
           <a
             href={personalData.facebook}
             target="_blank"
+            className="hover:text-primary hover:scale-110 transition-all duration-300 cursor-pointer"
             rel="noopener noreferrer"
           >
             <FaFacebookSquare />
           </a>
-          <a href={personalData.dev} target="_blank" rel="noopener noreferrer">
+          <a
+            href={personalData.dev}
+            target="_blank"
+            className="hover:text-primary hover:scale-110 transition-all duration-300 cursor-pointer"
+            rel="noopener noreferrer"
+          >
             <FaDev />
           </a>
-          <a href="mailto:naiemunhasan.com">
+          <a
+            href="mailto:naiemunhasan.com"
+            className="hover:text-primary hover:scale-110 transition-all duration-300 cursor-pointer"
+          >
             <MdEmail />
           </a>
         </section>
