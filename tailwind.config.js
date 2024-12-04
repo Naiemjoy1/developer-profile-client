@@ -1,6 +1,7 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui";
 
-module.exports = {
+export default {
   darkMode: "class", // Enable dark mode based on class
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -8,11 +9,11 @@ module.exports = {
       fontFamily: {
         openSans: "'Open Sans', sans-serif",
         Playfair: "'Playfair Display', serif",
-        Roboto: "'Roboto',sans-serif",
+        Roboto: "'Roboto', sans-serif",
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui],
   daisyui: {
     themes: [
       {
