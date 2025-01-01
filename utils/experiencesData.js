@@ -4,7 +4,7 @@ import traideas from "/src/assets/logos/traideeas.png";
 export const experiencesData = [
   {
     id: 1,
-    jobTitle: "Junior Front-End Devloper",
+    jobTitle: "Junior Front-End Developer",
     company: "Traideas",
     location: "Narayanganj",
     period: "2024",
