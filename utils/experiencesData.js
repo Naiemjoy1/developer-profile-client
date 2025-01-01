@@ -1,5 +1,5 @@
-import traideas from "/src/assets/logos/traideeas.png";
 import echion from "/src/assets/logos/Echion.avif";
+import traideas from "/src/assets/logos/traideeas.png";
 
 export const experiencesData = [
   {
@@ -12,7 +12,7 @@ export const experiencesData = [
       "Speacilize in front-end-development and design. Responsiblities included creating responsive website with HTML/CSS, converting PSD designs to HTML, building Wordpress sites, and delivering high-quality graphic design",
     ],
     tools: ["HTML/CSS", "PSD to HTML", "Wordpress", "Graphic Design"],
-    link: "https://www.echioninteractive.com",
+    link: "https://traideas.com/",
     logo: traideas,
   },
   {
