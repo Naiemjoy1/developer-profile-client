@@ -43,7 +43,9 @@ const ExperienceCard = ({ experience }) => {
           {experience.location}
         </p>
         <p className="opacity-70 text-xl font-medium">{experience.jobTitle}</p>
-        <p className="text-sm opacity-65">{experience.description}</p>
+        <p className="text-sm opacity-65 text-justify">
+          {experience.description}
+        </p>
       </section>
     </div>
   );

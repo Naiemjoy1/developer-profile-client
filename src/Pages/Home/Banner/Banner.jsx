@@ -37,7 +37,7 @@ const Banner = () => {
             <RiMapPin2Line />
             <span>Dhaka, Bangladesh</span>
           </p>
-          <p className=" text-sm opacity-70">
+          <p className=" text-sm opacity-70 text-justify">
             Dedicated and passionate front-end developer specializing in
             creating dynamic and responsive web applications. With a Bachelor’s
             degree in Computer Science from American International University -
