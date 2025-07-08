@@ -1,7 +1,3 @@
-import { PiBagSimpleLight } from "react-icons/pi";
-import { MdEmail } from "react-icons/md";
-import { RiMapPin2Line } from "react-icons/ri";
-import { personalData } from "/utils/personal-data.js";
 import {
   FaDev,
   FaFacebookSquare,
@@ -9,8 +5,12 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import dpImg from "/src/assets/DSC02025.jpg";
+import { MdEmail } from "react-icons/md";
+import { PiBagSimpleLight } from "react-icons/pi";
+import { RiMapPin2Line } from "react-icons/ri";
 import TextTransitionComponent from "../../../Components/text-transition/texttransition";
+import dpImg from "/src/assets/DSC02025.jpg";
+import { personalData } from "/utils/personal-data.js";
 
 const Banner = () => {
   return (
@@ -54,7 +54,7 @@ const Banner = () => {
             </button>
             <button className="btn btn-primary rounded-full text-white btn-sm">
               <a
-                href="/MD_Naiemun_Hasan_MERN_STACK_DEVELOPER.pdf"
+                href="/Naiemun_Hasan_Frontend_Developer_Resume.pdf"
                 download
                 className="flex items-center gap-2"
               >

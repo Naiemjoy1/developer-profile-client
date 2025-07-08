@@ -7,7 +7,7 @@ export const experiencesData = [
     jobTitle: "Junior Front-End Developer",
     company: "Traideas",
     location: "Narayanganj",
-    period: "2024",
+    period: "2023",
     description: [
       "Speacilize in front-end-development and design. Responsiblities included creating responsive website with HTML/CSS, converting PSD designs to HTML, building Wordpress sites, and delivering high-quality graphic design",
     ],
@@ -20,7 +20,7 @@ export const experiencesData = [
     jobTitle: "Web Design & Graphic Design",
     company: "Echion Intersactive LLC",
     location: "Coral Gables, FL",
-    period: "2019 - 2021",
+    period: "2018 - 2022",
     description: [
       "Speacilize in front-end-development and design. Responsiblities included creating responsive website with HTML/CSS, converting PSD designs to HTML, building Wordpress sites, and delivering high-quality graphic design",
     ],
